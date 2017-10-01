@@ -11,7 +11,7 @@
 			<header class="main-header">
 				<nav class="main-navi">
 					<div class="main-logo">
-						<a href="#">
+						<a>
 							<img src="Images/Logo.png" alt="Gllacy Shop" width="154" height="64">
 						</a>
 					</div>
@@ -50,14 +50,38 @@
 					<ul class="user-block__items">
 						<li class="user-block__item">
 							<a class="user-block__search" href="#">Поиск</a>
+							<div class="user-block__popup-search">
+								<form action="#" method="get">
+									<input class="user-block__popup-input" type="text" placeholder="Что ищем?" name="Search" id="Search">
+								</form>
+							</div>
 						</li>
 						<li class="user-block__item">
 							<a class="user-block__enter" href="#">Вход</a>
+							<div class="user-block__popup-enter">
+								<form action="#" method="get">
+									<input class="user-block__popup-input" type="text" placeholder="Электронная почта" name="Email" id="">
+									<input class="user-block__popup-input" type="password" placeholder="Пароль" name="Password" id="">
+									<input  class="btn" value="Войти" type="submit" name="" id="">
+									<div class="user-block__popup-enter--link">
+										<a href="#">
+											<span>Забыли пароль?</span>
+										</a>
+										<a href="#">
+											<span>Новая регистрация</span>
+										</a>
+									</div>
+								</form>
+							</div>
 						</li>
 						<li class="user-block__item">
 							<a class="user-block__basket" href="#">Пусто</a>
 						</li>
 					</ul>
+				</div>
+				<div class="contacts">
+					<p>С 10 до 20, ежедневно</p>
+					<p>8 812 450-25-25</p>
 				</div>
 			</header>
 		</div>
